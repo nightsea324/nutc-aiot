@@ -45,7 +45,7 @@ opencv_world3414.lib
 .\darknet.exe detect .\cfg\yolov4.cfg .\weights\yolov4.weights .\data\dog.jpg
 
 ---
-- ## 建置車牌辨識專案
+- ## 建置辨識專案
 1. 將``/x64/``中的``yolo_cpp_dll.dll與pthreadVC2.dll``複製至``/nutc-aiot-server/sign_detect/ObjectDetection/``
 2. 將yolov4.weights複製至``/nutc-aiot-server/sign_detect/ObjectDetection/``
 3. 開啟Terminal進入py環境執行``main.py``
